@@ -1,0 +1,129 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+/* App.css */
+
+/* Set the background color for the entire app */
+.App {
+  background-color: rgb(245, 102, 102); /* This is a light blue color, you can change it to any color */
+  color: #333; /* Set text color to dark for contrast */
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Optionally, you can add styles for other elements, like the header */
+.App-header {
+  background-color: #282c34; /* Dark background for the header */
+  color: white; /* White text in the header */
+  padding: 20px;
+  text-align: center;
+}
+
+/* You can also style other sections like Skills */
+.Skills {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff; /* Light background for the skills section */
+  border-radius: 10px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #282c34;
+  font-size: 1.8rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #555;
+}
+/* App.css */
+
+.Skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills li {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 2s; /* Add delay to each skill */
+}
+
+.Skills li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.Skills li:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.Skills li:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.Skills li:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.Skills li:nth-child(5) {
+  animation-delay: 8s;
+}
+
+.Skills li:nth-child(6) {
+  animation-delay: 10s;
+}
+
+.Skills li:nth-child(7) {
+  animation-delay: 12s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
